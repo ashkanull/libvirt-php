@@ -9,6 +9,8 @@
         die('<html><body>Cannot get hostname</body></html>');
 
     $allStats = $lv->get_domain_all_stat();
+    print_r($allStats);
+    echo "\r\n<br>\r\n";
 
     $doms = $lv->get_domains();
 
